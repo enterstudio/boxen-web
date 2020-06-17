@@ -3,15 +3,15 @@ source "https://rubygems.org"
 
 gem "dotenv"
 gem "erubis"
-gem "jquery-rails"
-gem "omniauth-github"
+gem "jquery-rails", ">= 4.4.0"
+gem "omniauth-github", ">= 1.1.2"
 gem "pg"
-gem "rails", "~> 3"
-gem "unicorn"
+gem "rails", "~> 5", ">= 5.0.0"
+gem "unicorn", ">= 4.9.0"
 
 group :assets do
-  gem "coffee-rails"
-  gem "sass-rails"
+  gem "coffee-rails", ">= 4.1.1"
+  gem "sass-rails", ">= 5.0.5"
   gem "uglifier"
 end
 
