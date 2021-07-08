@@ -16,6 +16,6 @@ group :assets do
 end
 
 group :development, :test do
-  gem "heroku"
+  gem "heroku", ">= 3.99.4"
   gem "pry"
 end
