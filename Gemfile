@@ -4,9 +4,9 @@ source "https://rubygems.org"
 gem "dotenv"
 gem "erubis"
 gem "jquery-rails"
-gem "omniauth-github"
+gem "omniauth-github", ">= 2.0.0"
 gem "pg"
-gem "rails", "~> 3"
+gem "rails", "~> 3", ">= 3.2.22.4"
 gem "unicorn"
 
 group :assets do
