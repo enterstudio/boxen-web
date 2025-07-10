@@ -3,14 +3,14 @@ source "https://rubygems.org"
 
 gem "dotenv"
 gem "erubis"
-gem "jquery-rails"
-gem "omniauth-github"
+gem "jquery-rails", ">= 4.0.1"
+gem "omniauth-github", ">= 2.0.0"
 gem "pg"
-gem "rails", "~> 3"
+gem "rails", "~> 7", ">= 7.1.0"
 gem "unicorn"
 
 group :assets do
-  gem "coffee-rails"
+  gem "coffee-rails", ">= 4.2.2"
   gem "sass-rails"
   gem "uglifier"
 end
